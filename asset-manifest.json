@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-tzkotikov/static/css/main.5598d537.css",
+    "main.js": "/react-tzkotikov/static/js/main.ef64904b.js",
+    "index.html": "/react-tzkotikov/index.html",
+    "main.5598d537.css.map": "/react-tzkotikov/static/css/main.5598d537.css.map",
+    "main.ef64904b.js.map": "/react-tzkotikov/static/js/main.ef64904b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5598d537.css",
+    "static/js/main.ef64904b.js"
+  ]
+}
