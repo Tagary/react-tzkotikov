@@ -28,7 +28,7 @@ const MainPages = () => {
       {
         <div className="box__image">
           {cats.map((cat) => (
-            <div className="container__image">
+            <div key={cat.id} className="container__image">
               <img className="image__cat" key={cat.id} src={cat.url} alt="" />
               <div onClick={() => handlerClickAddFav(cat)} className="favorite__cat">
                 <svg

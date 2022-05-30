@@ -16,7 +16,7 @@ const FavoritePages = () => {
   return (
     <div className="box__image">
       {cat.map((favorcat) => (
-        <div className="container__image">
+        <div key={favorcat.id} className="container__image">
           <img src={favorcat.url} className="image__cat" alt="" />
           <div className="favorite__cat favorite__catclick">
             <svg
